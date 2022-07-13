@@ -229,7 +229,7 @@ function colorMaker(){
 
 function changeQuote(){
     let color = colorMaker();
-    let randomNumber = Math.floor(Math.random() * quotes.length - 1);
+    let randomNumber = Math.floor(Math.random() * (quotes.length - 1));
     document.body.style.backgroundColor = color;
     changeBtn.style.background = color;
     qoute.style.color = color;
